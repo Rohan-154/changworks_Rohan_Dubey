@@ -13,7 +13,7 @@ export default function App() {
   const handlers = {
     keyPress: () => {
       const myConfetti = confetti.create(myCanvas.current, {
-        resize: false,
+        resize: true,
         useWorker: true,
       });
       myConfetti({
