@@ -1,5 +1,6 @@
 ## Assignment project for ChangWorks
-PS: Type the complete word "changworks", then the confetti will blast.
+PS:- Click anywhere on the screen and start. 
+   - Type the complete word "changworks", then the confetti will blast.
 
 ### Demo
 https://dreamy-cray-72724c.netlify.app/
