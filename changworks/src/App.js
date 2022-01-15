@@ -7,9 +7,9 @@ export default function App() {
   const myCanvas = useRef(null);
 
   const keyMap = {
-    keyPress: ["c", "h", "a", "n", "g", "w", "o", "r", "k", "s"],
+    keyPress: "c h a n g w o r k s"
   };
-
+ 
   const handlers = {
     keyPress: () => {
       const myConfetti = confetti.create(myCanvas.current, {
@@ -17,8 +17,8 @@ export default function App() {
         useWorker: true,
       });
       myConfetti({
-        particleCount: 100,
-        spread: 160,
+        particleCount: 300,
+        spread: 200,
       });
     },
   };
